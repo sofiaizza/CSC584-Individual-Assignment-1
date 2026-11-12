@@ -12,8 +12,8 @@
 
     <div class="container profile-container">
 
-        <h1>My Personal Profile</h1>
-        <p class="subtitle">Here is your submitted personal information.</p>
+        <h1>♡ My Personal Profile ♡</h1>
+        <p class="subtitle">✿ A little glimpse into who I am ✿</p>
 
         <div class="profile-card">
 
