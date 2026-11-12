@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>♡ My Personal Profile ♡</h1>
+            <p class="subtitle">A little introduction about me ✿</p>
+
+        <form action="ProfileServlet" method="post">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="studentId">Student ID</label>
+            <input type="text" id="studentId" name="studentId"
+                   placeholder="Enter your student ID" required>
+
+            <label for="programme">Programme</label>
+            <input type="text" id="programme" name="programme"
+                   placeholder="Enter your programme" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="hobbies">Hobbies</label>
+            <input type="text" id="hobbies" name="hobbies"
+                   placeholder="e.g. Reading, Travelling, Gaming" required>
+
+            <label for="introduction">Short Self-Introduction</label>
+            <textarea id="introduction" name="introduction"
+                      rows="5"
+                      placeholder="Write something about yourself..."
+                      required></textarea>
+
+            <button type="submit">Submit Profile</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

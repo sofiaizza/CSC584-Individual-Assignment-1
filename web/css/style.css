@@ -1,0 +1,162 @@
+
+/* General styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: #FCEEF2;
+    color: #59434D;
+    padding: 40px 20px;
+}
+
+/* Main container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #FFF9F7;
+    padding: 40px;
+    border-radius: 22px;
+    box-shadow: 0 8px 25px rgba(180, 110, 135, 0.12);
+    border: 1px solid #F5DCE5;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #B76E87;
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #A88B96;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    font-weight: bold;
+    color: #946274;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Input fields */
+input, textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #EACBD6;
+    border-radius: 10px;
+    background: #FFFCFC;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #59434D;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #D98CA5;
+    box-shadow: 0 0 5px rgba(217, 140, 165, 0.25);
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit button */
+button, .back-button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-top: 28px;
+    background: #D98CA5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .back-button:hover {
+    background: #B76E87;
+}
+
+/* Profile page */
+.profile-container {
+    max-width: 650px;
+}
+
+.profile-card {
+    background: #FFF3F6;
+    border: 1px solid #F1D4DE;
+    border-radius: 18px;
+    padding: 28px;
+}
+
+.profile-icon {
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+    text-align: center;
+    color: #B76E87;
+    font-size: 25px;
+}
+
+.programme {
+    text-align: center;
+    color: #A88B96;
+    margin: 10px 0 25px;
+    font-family: Arial, sans-serif;
+}
+
+.detail {
+    padding: 16px 0;
+    border-top: 1px solid #EEDCE3;
+}
+
+.detail span {
+    font-weight: bold;
+    color: #B76E87;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.detail p {
+    margin-top: 8px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+    font-family: Arial, sans-serif;
+}
+
+.introduction {
+    white-space: pre-wrap;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    .container {
+        padding: 25px;
+    }
+}
