@@ -1,6 +1,6 @@
-🎀 Personal Profile Web Application
-
 CSC584 – Individual Assignment 1
+
+🎀 Personal Profile Web Application 🎀
 
 🌷 Project Description
 
