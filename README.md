@@ -1,14 +1,16 @@
 CSC584 – Individual Assignment 1
 
-🎀 Personal Profile Web Application 🎀
+## 🎀 Personal Profile Web Application 🎀
 
-🌷 Project Description
+## 🌷 Project Description
 
 The Personal Profile Web Application is a simple web-based application developed using HTML, Java Servlet, and JavaServer Pages (JSP).
+
 This application allows users to enter their personal information through an HTML form. The submitted information is processed by a Java Servlet using the HTTP POST method and displayed neatly on a JSP page.
+
 The application features a soft pink and feminine interface, designed with simple CSS styling to provide a pleasant and user-friendly experience.
 
-✨ Features
+## ✨ Features
 
 - Collects personal information through an HTML form.
 - Accepts Name, Student ID, Programme, Email, Hobbies, and Short Self-Introduction.
@@ -18,7 +20,7 @@ The application features a soft pink and feminine interface, designed with simpl
 - Includes a responsive design with a pink aesthetic.
 - Allows users to return to the form and submit new information.
 
-💻 Technologies Used
+## 💻 Technologies Used
 
 - HTML5 – Creates the personal profile form.
 - CSS3 – Styles the application and provides a responsive layout.
@@ -29,7 +31,7 @@ The application features a soft pink and feminine interface, designed with simpl
 - GlassFish Server 4.1.1 – Runs the web application.
 - NetBeans IDE – Used for application development.
 
-🔄 Application Workflow
+## 🔄 Application Workflow
 
 The application follows this process:
 
@@ -39,7 +41,7 @@ The application follows this process:
 4. JSP Page: The Servlet forwards the information to profile.jsp.
 5. Profile Display: The submitted information is displayed on the profile page.
 
-🚀 How to Run the Application
+## 🚀 How to Run the Application
 
 1. Clone or download this repository.
 2. Open NetBeans IDE.
